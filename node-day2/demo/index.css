@@ -1,0 +1,17 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+div img{
+	width: 450px;
+	height: 250px;
+	
+}
+div{
+	margin: 0 auto;
+	text-align: center;
+}
+li{
+	border: 5px solid  red;
+}

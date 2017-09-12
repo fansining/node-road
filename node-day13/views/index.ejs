@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+		.header{
+			width: 908px;
+			height: 60px;
+			background-color: #ccc;
+		}
+		.content{
+			width: 980px;
+			margin: 0 auto;
+			background-color: #ccc;
+		}
+		.main{
+			float: left;
+			width: 600px;
+			margin-right:20px;
+			border-right: 1px solid red;
+			box-sizing: border-box;
+			background-color: red;
+		}
+		.aside{
+			float: right;
+			width: 360px;
+			height: 400px;
+			background-color: #0f0;
+		}
+	</style>
+</head>
+<body>
+	<div class="header"></div>
+
+	<div class="content">
+		<div class="main">
+
+		
+			<h1><%= title%></h1>
+			<p><%= time %></p>
+			<div><%=content%></div>
+
+		</div>
+		<div class="aside"></div>
+	</div>
+</body>
+</html>
